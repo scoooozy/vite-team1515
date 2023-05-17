@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  background-color: rgb(242, 239, 235);
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+.reveal {
+  opacity: 0;
+  transition: all 1s;
+  transform: translateX(-100%);
+}

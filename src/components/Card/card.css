@@ -1,0 +1,116 @@
+.robot-card{
+    color: var(--clr-neutral-100);
+    background-size: cover;
+    padding: 10rem 0 0;
+    margin: 20px 0 30px;
+    max-width: 43ch;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+    height: 590px;
+}
+
+
+.robot-card-content{
+    --padding:1.8rem;
+    padding: 1.8rem;
+    background: linear-gradient(
+        hsl(0 0% 0% /0),
+        hsl(0 0% 0%/ 0.4) 10%,
+        hsl(0 0% 0% /1)
+    ) ;
+    height: 100%;
+    min-height: 400px;
+}
+
+
+.robot-card-title{
+    font-size: 30px;
+    position: relative;
+    width: max-content;
+}
+
+.robot-card-title::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom: -3px;
+    width: calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+.robot-card:hover .robot-card-title::after{
+    transform: scaleX(1);
+}
+.robot.robot-card-body{
+    color: rgb(255, 255, 255 / 0.8);
+    font-size: 14px;
+}
+@media (hover){
+    .robot-card-content{
+        transform: translateY(75%);
+        transition: transform 500ms ease-out;
+    }
+    .robot-card:hover .robot-card-content{
+        transform: translateY(0);
+        transition-delay: 200ms;
+    }
+    .robot-card-content >  *:not(.robot-card-title){
+        opacity: 0;
+        transition: opacity 500ms ease-in-out;
+    }
+    .robot-card:hover .robot-card-content >*:not(.robot-card-title){
+        opacity:1;
+        transition-delay: 700ms;
+    }
+    .robot-card-title::after{
+        transform: scaleX(0);
+    }
+}
+@media(prefers-reduced-motion:reduce){
+    *,
+    *::before,
+    *::after{
+        animation-duration: 0.1ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 1 !important;
+        scroll-behavior: auto !important;
+        transition-delay: 0ms !important;
+    }
+    .reveal{
+        transition: none;
+    }
+}
+
+.robot-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+}
+.heading{
+    color: white;
+}
+
+.content{
+    color: white;
+    text-align: center;
+}
+.text{
+    color: inherit;
+    padding: 1.5rem 2rem;
+}
+
+
+.robot-card:nth-child(2){
+    transition-delay: 0.5s;
+}
+.robot-card:nth-child(3){
+    transition-delay: 0.5s;
+}

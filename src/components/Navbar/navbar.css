@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* overriding bootstraps classes */
+.navbg {
+  display: flex;
+  height: 100%;
+  padding: 10px 20px;
+  background: rgb(14, 14, 14);
+  background: linear-gradient(
+    74deg,
+    rgba(14, 14, 14, 1) 0%,
+    rgba(22, 22, 22, 1) 43%,
+    rgba(36, 36, 36, 1) 100%
+  );
+}
+.dropdown-menu-dark {
+  background-color: #161616;
+}
+.alignnav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar > .container {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+#nav-dropdown-dark-example {
+  color: white;
+  font-size: calc(14px + (15 - 12) * ((100vw - 300px) / (1300 - 300)));
+}
+.droplinks {
+  color: white;
+  font-size: calc(14px + (15 - 12) * ((100vw - 300px) / (1300 - 300)));
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.links {
+  text-decoration: none;
+  color: white;
+  font-size: calc(14px + (15 - 12) * ((100vw - 300px) / (1300 - 300)));
+  margin: 0 20px;
+} 
+/* end of overriden classes */
+
+.logo {
+  cursor: pointer;
+}
+.img {
+  width: calc(100px + (45 - 25) * ((100vw - 300px) / (1300 - 300)));
+}
+
