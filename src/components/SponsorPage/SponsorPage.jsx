@@ -30,12 +30,13 @@ const SponsorPage = () => {
           <Container>
             <Row>
               <img src={GeneHaas} alt="Gene Haas Foundation" className="sp-img hoverable" onClick={redirect("https://ghaasfoundation.org/content/ghf/en/home.html")}/>
-              <img src={OhanaCo} alt="Ohana & Co"  className="sp-img hoverable" onClick={redirect()}/>
+              <img src={OhanaCo} alt="Ohana & Co"  className="sp-img hoverable" onClick={redirect("https://www.ohanaco.com/")}/>
               
-              <img src={BHEF} alt="BHEF"  className="sp-img-long hoverable" onClick={redirect()}/>
-              <img src={Industry} alt="The Industrious"  className="sp-img-long hoverable" onClick={redirect()}/>
-              <img src={Enterprs} alt="Enterprise Rent A Car"  className="sp-img-long hoverable" onClick={redirect()}/>
-              <img src={Intuitive} alt="Enterprise Rent A Car"  className="sp-img hoverable" onClick={redirect()}/>
+              <img src={BHEF} alt="BHEF"  className="sp-img-long hoverable" onClick={redirect("https://www.bhef.org/")}/>
+              <img src={Industry} alt="The Industrious"  className="sp-img-long hoverable" onClick={redirect("")}/>
+              
+              <img src={Enterprs} alt="Enterprise Rent A Car"  className="sp-img-long hoverable" onClick={redirect("https://www.enterprise.com/en/home.html")}/>
+              <img src={Intuitive} alt="Intuitive"  className="sp-img hoverable" onClick={redirect("https://www.intuitive-foundation.org/")}/>
             </Row>
           </Container>
       </div>
