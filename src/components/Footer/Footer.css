@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    padding: 20px 0px 20px 0px;
 }
 .link{
     text-align: center;
@@ -32,4 +32,8 @@
 .footer-info > a:hover{
     color: white;
     text-decoration: none;
+}
+
+.infos {
+    margin-bottom: 0px;
 }
