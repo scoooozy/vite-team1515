@@ -5,9 +5,13 @@ function Footer(props) {
   return (
     <footer className="footer">
       <Container className="footer-container">
-        <Row className="footer-row">
-          <Col className="text-center padd">{props.children}</Col>
-        </Row>
+        {props.children ? (
+          <Row className="footer-row">
+            <Col className="text-center padd">{props.children}</Col>
+          </Row>
+        ) : (
+          <></>
+        )}
         <Row className="footer-row">
           <Col className="footer-info">
             <p className="infos">Follow and support us!!!</p>

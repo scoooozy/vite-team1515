@@ -5,13 +5,35 @@ import OutreachCard from "../OutreachCard/OutreachCard";
 import albion1 from "./images/albion1.jpg";
 import albion2 from "./images/albion2.jpg";
 import albion3 from "./images/albion3.jpg";
+import bg from "./images/outreachbg.png";
 import Header from "../Header/Header";
 import { useRef } from "react";
 import { Container } from "react-bootstrap";
+import "./OutreachPage.css" 
 const OutreachPage = () => {
   const events = [
     {
       title: "Albion Street",
+      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
+      images: [albion1, albion2, albion3],
+    },
+    {
+      title: "Albion Street 2",
+      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
+      images: [albion1, albion2, albion3],
+    },
+    {
+      title: "Albion Street 2",
+      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
+      images: [albion1, albion2, albion3],
+    },
+    {
+      title: "Albion Street 2",
+      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
+      images: [albion1, albion2, albion3],
+    },
+    {
+      title: "Albion Street 2",
       text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
       images: [albion1, albion2, albion3],
     },
@@ -23,7 +45,7 @@ const OutreachPage = () => {
   return (
     <div>
       <NavPage />
-      <Header wText="OUT" oText="REACH">
+      <Header wText="OUT" oText="REACH" bg={bg}>
         <p class="header-subtitle fade-in">
           We are a high-school based robotics team that has been providing
           opportunities and education in STEM to our community for years, and
@@ -42,9 +64,12 @@ const OutreachPage = () => {
           Learn More
         </button>
       </Header>
-      {events.map((e) => (
-        <OutreachCard {...e} ref={ref}/>
-      ))}
+      <Container fluid={true} sx={{ flex: "50%" }} className="outreachContainer">
+        {events.map((e) => (
+          <OutreachCard {...e} ref={ref} />
+        ))}
+      </Container>
+
       <Footer />
     </div>
   );
