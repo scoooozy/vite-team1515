@@ -7,7 +7,7 @@ import GeneHaas from "./images/Haas White.png";
 import Enterprs from "./images/Enterprise Logo.png";
 import Industry from "./images/Industrious Logo.png";
 import Intuitive from "./images/Intuitive Logo.png";
-import BHEF from "./images/BHEF Logo.png"
+import BHEF from "./images/BHEF Logo.png";
 
 import Footer from "../Footer/Footer";
 import { Container, Row } from "react-bootstrap";
@@ -53,7 +53,7 @@ const SponsorPage = () => {
               src={Industry}
               alt="The Industrious"
               className="sp-img-long hoverable"
-              onClick={() => handleRedirect()} // Add the appropriate URL here
+              onClick={() => handleRedirect()} // ask odelia for link
             />
 
             <img

@@ -1,6 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../Footer/Footer.css";
+
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 function Footer(props) {
   return (
     <footer className="footer">
@@ -14,11 +19,9 @@ function Footer(props) {
         )}
         <Row className="footer-row">
           <Col className="footer-info">
-            <p className="infos">Follow and support us!!!</p>
-            <span>|</span>
-            <a href="https://www.instagram.com/frc1515/?hl=en">Instagram</a>
-            <a href="https://www.facebook.com/frc1515/">Facebook</a>
-            <a href="https://twitter.com/frc1515?lang=en">Twitter</a>
+            <a href="https://www.instagram.com/frc1515/?hl=en"><InstagramIcon/></a>
+            <a href="https://www.facebook.com/frc1515/"><FacebookIcon/></a>
+            <a href="https://twitter.com/frc1515?lang=en"><TwitterIcon/></a>
           </Col>
         </Row>
       </Container>

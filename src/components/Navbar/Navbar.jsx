@@ -2,7 +2,7 @@ import "./navbar.css";
 
 import pic from "../images/MorTorq.png";
 import picture from "../images/navpic.png";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -47,9 +47,10 @@ function NavPage(props) {
                   </NavDropdown.Item>
                 </Link>
               </NavDropdown>
-              <Nav.Link href="#link" className="links">
+              <Nav.Link href="https://www.bhef.org/apps/form/bhhsrobotics" target="_blank" className="links">
                 Donate
               </Nav.Link>
+              <NavLink></NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
