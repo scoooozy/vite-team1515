@@ -25,7 +25,6 @@
   align-items: center;
   border: solid black 3px;
   border-radius: 10px;
-
 }
 .card-front {
   display: flex;
@@ -37,13 +36,11 @@
   background-size: cover;
   justify-content: flex-end;
   border-radius: 10px;
-
 }
 
 .card-info {
   display: flex;
   width: 100%;
-
 }
 .person-card-container {
   display: flex;
@@ -60,24 +57,27 @@
   justify-content: space-between;
   width: 100%;
   padding: 24px 15px;
-  background: linear-gradient( hsl(0 0% 0% /0), hsl(0 0% 0%/ 0.2) 40%, hsl(0 0% 0% /1) );
+  background: linear-gradient(
+    hsl(0 0% 0% /0),
+    hsl(0 0% 0%/ 0.2) 40%,
+    hsl(0 0% 0% /1)
+  );
   height: 100%;
   min-height: 500px;
   align-items: flex-end;
   border-radius: 10px;
-
 }
-button{
+button {
   background-color: transparent;
   border: none;
 }
-.learnLess-btn{
+.learnLess-btn {
   position: absolute;
   top: 0;
   left: 0;
   padding: 22px 10px;
 }
-.learnMore-btn{
+.learnMore-btn {
   background-color: transparent;
   border: none;
   color: white;
@@ -85,12 +85,17 @@ button{
   font-size: 30px;
   margin: 13px 0;
 }
-p{
+p {
   font-size: 16px;
 }
-.row{
+.row {
   justify-content: center;
 }
-.person-card-container{
+.person-card-container {
   padding: 50px 0;
+}
+.person-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
