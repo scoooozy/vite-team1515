@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 .bg-sponsors {
-    background-image: linear-gradient(to bottom,rgba(16, 15, 15, 0.3),rgb(16, 15, 15,1)),url('./Crowd.jpg');
+    background-image: linear-gradient(to bottom,rgba(16, 15, 15, 0.3),rgb(16, 15, 15,1)),url('./images/Crowd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 70vh;
     box-shadow: none !important;
 }
+
+.hoverable {
+    cursor: pointer;
+  }
 
 .black {
     background-color: rgb(16, 15, 15);
@@ -30,6 +34,13 @@
 }
 
 .sp-img {
+    margin-top: 10vh;
+    max-width: 70vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.sp-img-long {
     margin-top: 10vh;
     max-width: 70vh;
     padding-left: 5vh;
