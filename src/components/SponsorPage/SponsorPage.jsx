@@ -1,11 +1,20 @@
 import React from "react";
 import NavPage from "../Navbar/Navbar";
 import "./SponsorPage.css";
-import GeneHaas from "./Gene Haas Logo.png";
-import OhanaCo from "./Ohana & Co Logo.png";
+
+import OhanaCo from "./images/Ohana & Co Logo.png";
+import GeneHaas from "./images/Haas White.png";
+import Enterprs from "./images/Enterprise Logo.png";
+import Industry from "./images/Industrious Logo.png";
+import Intuitive from "./images/Intuitive Logo.png";
+import BHEF from "./images/BHEF Logo.png"
+
 import Footer from "../Footer/Footer";
-import whiteHaas from "./Haas White.png";
 import { Container, Row } from "react-bootstrap";
+// i will find a way to not use this function btw im just lazy rn
+function redirect(link) {
+  window.location.href = link;
+}
 
 const SponsorPage = () => {
   return (
@@ -20,8 +29,13 @@ const SponsorPage = () => {
         </div>
           <Container>
             <Row>
-              <img src={whiteHaas} alt="Gene Haas Foundation" className="sp-img" />
-              <img src={OhanaCo} alt="Ohana & Co"  className="sp-img"/>
+              <img src={GeneHaas} alt="Gene Haas Foundation" className="sp-img hoverable" onClick={redirect("https://ghaasfoundation.org/content/ghf/en/home.html")}/>
+              <img src={OhanaCo} alt="Ohana & Co"  className="sp-img hoverable" onClick={redirect()}/>
+              
+              <img src={BHEF} alt="BHEF"  className="sp-img-long hoverable" onClick={redirect()}/>
+              <img src={Industry} alt="The Industrious"  className="sp-img-long hoverable" onClick={redirect()}/>
+              <img src={Enterprs} alt="Enterprise Rent A Car"  className="sp-img-long hoverable" onClick={redirect()}/>
+              <img src={Intuitive} alt="Enterprise Rent A Car"  className="sp-img hoverable" onClick={redirect()}/>
             </Row>
           </Container>
       </div>
