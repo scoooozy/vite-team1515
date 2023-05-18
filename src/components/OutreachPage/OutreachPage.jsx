@@ -10,6 +10,9 @@ import Header from "../Header/Header";
 import { useRef } from "react";
 import { Container } from "react-bootstrap";
 import "./OutreachPage.css" 
+import gate1 from "./images/gatea.jpg"
+import walk1 from "./images/woff.png"
+import friendship1 from "./images/friendship.jpg"
 const OutreachPage = () => {
   const events = [
     {
@@ -18,24 +21,19 @@ const OutreachPage = () => {
       images: [albion1, albion2, albion3],
     },
     {
-      title: "Albion Street 2",
-      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
-      images: [albion1, albion2, albion3],
+      title: "Gate SkillsUSA",
+      text: "Over the span of 3 months, our high school Robotics members mentored and guided 4 middle-school teams in the SkillsUSA Robotics competition. The teams competed against one another in the field in a competition we hosted in our high school that was open to everyone.",
+      images: [gate1],
     },
     {
-      title: "Albion Street 2",
-      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
-      images: [albion1, albion2, albion3],
+      title: "Walk4Friendship of Los Angeles",
+      text: "This year, we raised funds and walked for Friendship Circle, an amazing organization for kids with special needs. We were fortunate to exceed our goal, raising over $900.",
+      images: [walk1],
     },
     {
-      title: "Albion Street 2",
-      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
-      images: [albion1, albion2, albion3],
-    },
-    {
-      title: "Albion Street 2",
-      text: "Members of the MorTorq robotics team visited the Albion Street Elementary School in Los Angeles, California, over the holiday season. Members of the team showcased the robot while others handed out presents and played with the children. This annual event is arguably the most anticipated event of the holiday season for MorTorq. The students at the Albion Street school were as excited for the event as MorTorq members.",
-      images: [albion1, albion2, albion3],
+      title: "Friendship Circle of Los Angeles",
+      text: "For a day, MorTorq members went to the Friendship Circle, an organization our team holds very dear to our heart, continuing the values of FIRST. We played sports, made crafts, sang songs, and showed that STEM is for EVERYONE.",
+      images: [friendship1],
     },
   ];
   const ref = useRef(null);
