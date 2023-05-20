@@ -4,11 +4,16 @@
     perspective: 1000px;
     margin: 10px 0;
     border-radius:10px;
-
+    padding: 0;
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .flipable-card-container{
-        height: 400px;
+        height: 420px;
         width: 320px;
+        
+    }
+    p{
+        font-size: 13px !important;
+        font-weight: 700;
     }
 }

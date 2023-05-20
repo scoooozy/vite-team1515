@@ -6,3 +6,15 @@
 .leader-card-container{
     padding: 50px 0 ;
 }
+.person-card-container > .row{
+    gap: 30px;
+}
+@media (max-width: 768px ){
+    .person-card-container > .row{
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+}

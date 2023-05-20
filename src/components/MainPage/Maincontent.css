@@ -74,9 +74,14 @@
 }
 
 .H2{
-        color: black;
-    padding: 15px 0;
+    color: black;
     font-size: 2.5rem;
+    padding: 15px 10px;
+}
+.robotehading{
+    color: black;
+    font-size: 2.5rem;
+    padding: 15px 10px;
 }
 .teamhistory{
     display: flex;
@@ -86,6 +91,10 @@
 .col1{
     display: flex;
     padding: 0;
+    overflow: hidden;
+}
+.reveal.active .vl {
+    top: 0;
 }
 .col{
     display: flex;
@@ -94,8 +103,11 @@
 }
 .vl{
     border-left: 2px solid black;
-    height: 250px;
+    height: calc(100% - 24px - 16px);
     padding: 2px 5px;
+    position: relative;
+    top: -100%;
+    transition: 2.5s;
 }
 .hl{
     width: 85vw;

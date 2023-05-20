@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import "./Card.css";
 import "./animation.css";
 import Button from "react-bootstrap/Button";
 import NavigateNextIcon from "@mui/icons-material/NavigateNext";
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 const Card = ({ onClick, bg, name, position, description }) => {
   return (
     <div className="person-card">
@@ -12,7 +13,9 @@ const Card = ({ onClick, bg, name, position, description }) => {
           <h4>{name}</h4>
           <h5>{position}</h5>
           <p>{description}</p>
-          <button className="learnLess-btn" onClick={onClick}><ArrowBackIosNewIcon sx={{fontSize:35}}/></button>
+          <button className="learnLess-btn" onClick={onClick}>
+            <ArrowBackIosNewIcon sx={{ fontSize: 35 }} />
+          </button>
         </div>
       </div>
       <div
@@ -29,7 +32,7 @@ const Card = ({ onClick, bg, name, position, description }) => {
             </div>
             <button onClick={onClick} className="learnMore-btn">
               {" "}
-              <NavigateNextIcon sx={{fontSize:48}} />
+              <NavigateNextIcon sx={{ fontSize: 48 }} />
             </button>
           </div>
         </div>
