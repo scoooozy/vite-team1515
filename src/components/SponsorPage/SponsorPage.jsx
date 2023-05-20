@@ -53,7 +53,7 @@ const SponsorPage = () => {
               src={Industry}
               alt="The Industrious"
               className="sp-img-long hoverable"
-              onClick={() => handleRedirect()} // ask odelia for link
+              onClick={() => handleRedirect("www.industriousoffice.com")} // no clue if this is the right link :(
             />
 
             <img
