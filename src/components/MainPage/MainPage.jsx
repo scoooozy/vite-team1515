@@ -23,7 +23,7 @@ function Maincontent() {
     <div>
       <NavPage />
       <Header bg={hbg} wText="MOR"oText="TORQ">
-        <p class="header-subtitle fade-in">
+        <p class="fade-in">
           Striving to inspire future generations to pursue careers in STEM and
           Entrepreneurship by encouraging inclusion, leadership, ingenuity and
           teamwork.

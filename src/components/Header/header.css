@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&display=swap');
+
 .header {
   z-index: 990;
   position: relative;
-  height: 100%;
+  height: 80%;
   min-height: 650px;
   text-align: center;
   color: #fff;
@@ -12,6 +14,9 @@
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
   box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.5) inset;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: calc(1.375rem + 3vw);
   
 }
 
@@ -48,9 +53,17 @@
   position: absolute;
   left: 50%;
   top: 50%;
+  
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.new {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 550 !important;
+  letter-spacing: 2px;
+  font-size: calc(1.375rem + 5vw) !important;
 }
 
 .header .header-content .header-title {
@@ -102,9 +115,9 @@
 }
 
 .header-title {
-  font-size: 2.4rem;
-  font-weight: bold;
-  opacity: 0.8;
+  font-size: calc(1.375rem + 3vw);
+  font-weight: 700;
+  opacity: 1;
   font: Century Gothic;
 }
 

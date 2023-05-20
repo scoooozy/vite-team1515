@@ -12,8 +12,16 @@ function Header(props) {
       >
         <div class="overlay"></div>
         <div class="header-content">
-          <h1 class="header-title animate__animated animate__fadeIn">
-            {props.wText}<span style={{ color: "#FF5F00" }} class="">{props.oText}</span>
+          <h1 class="header-title animate__animated animate__fadeIn new">
+
+            {props.wText}
+            
+            <span style={{ color: "#FF5F00" }} className="new">
+              
+              {props.oText}
+              
+            </span>
+
           </h1>
 
           {props.children}
