@@ -60,19 +60,19 @@ const LeadersPage = (props) => {
             bg={Odelia}
             name="Odelia Shofet"
             position="Machine Specialist"
-            description="I am a current junior and have been on this team for the past three years. As machine specialist, I oversee the woodshop and teach new membersabout the machinery. From freshman year, I have loved everything mechanical and machinery, Being on MorTorq, I have learned a variety of skills, from using SolidWorks to leading a group of students. I look forward to the rest of the year and next year on this team! Go MorTorq!"
+            description="I am a current junior and have been on this team for the past three years. As machine specialist, I oversee the woodshop and teach new members about the machinery. From freshman year, I have loved everything mechanical and machinery. Being on MorTorq, I have learned a variety of skills, from using SolidWorks to leading a group of students. I look forward to the rest of the year and next year on this team! Go MorTorq!"
           />
           <PersonCard
             bg={Kaylen}
             name="Kaylen Wi"
             position="Electrical Specialist"
-            description="This is my third year on the team. As electrical specialist, I wire the robot to ensure Build can run the different components they builtwith the code Programers wrote. Electrical piqued my interest freshman year and since then I worked very hard to increase my knowledge. Mortorq has given me many opportunities from learning how to use power tools to developing my engineering and leadership skills. I have met so many amazing people through this program and hope to encourage more girls to join FIRST."
+            description="This is my third year on the team. As electrical specialist, I wire the robot to ensure Build can run the different components they built with the code Programers wrote. Electrical piqued my interest freshman year and since then I worked very hard to increase my knowledge. Mortorq has given me many opportunities from learning how to use power tools to developing my engineering and leadership skills. I have met so many amazing people through this program and hope to encourage more girls to join FIRST."
           />{" "}
           <PersonCard
             bg={Arielle}
             name="Arielle Efron"
             position="Safety Capitan"
-            description="I am a sophomore and the Safety Captain of team 1515, and this is my second year in robotics. As Safety Captain, I create and enforce protocolsto ensure that the team is safe at all times. Safety is an absolute necessity and priority, and I hope to share my passion for FRC with anyone interested in educating themselves on how to further protect their team. I am also committed to encouraging more girls into joining FRC."
+            description="I am a sophomore and the Safety Captain of team 1515, and this is my second year in robotics. As Safety Captain, I create and enforce protocols to ensure that the team is safe at all times. Safety is an absolute necessity and priority, and I hope to share my passion for FRC with anyone interested in educating themselves on how to further protect their team. I am also committed to encouraging more girls into joining FRC."
           />{" "}
         </Row>
         <Row>
