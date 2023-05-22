@@ -72,7 +72,7 @@ const LeadersPage = (props) => {
             bg={Arielle}
             name="Arielle Efron"
             position="Safety Capitan"
-            description="I am a sophomore and the Safety Captain of team 1515, and this is my second year in robotics. As Safety Captain, I create and enforce protocolsto ensure that the team is safe at all times. Safety is an absolute necessity and priority, and I hope to share my passion for FRC with anyone interested in educating themselves on how to further protect their team. I am also committed to encouraging more girls into joining FRC."
+            description="I am a sophomore and the Safety Captain of team 1515, and this is my second year in robotics. As Safety Captain, I create and enforce protocols to ensure that the team is safe at all times. Safety is an absolute necessity and priority, and I hope to share my passion for FRC with anyone interested in educating themselves on how to further protect their team. I am also committed to encouraging more girls into joining FRC."
           />{" "}
         </Row>
         <Row>
