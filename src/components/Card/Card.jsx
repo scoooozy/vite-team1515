@@ -5,15 +5,15 @@ const Card = (props) => {
     <div>
       {" "}
       <div
-        class="robot-card"
+        className="robot-card"
         style={{
           backgroundImage: `url(${props.bg})`,
         }}
       >
-        <div class="robot-card-content">
-          <h2 class="robot-card-title">{props.title}</h2>
+        <div className="robot-card-content">
+          <h2 className="robot-card-title">{props.title}</h2>
           <h4>{props.year}</h4>
-          <p class="robot-card-body">{props.text}</p>
+          <p className="robot-card-body">{props.text}</p>
         </div>
       </div>
     </div>

@@ -23,17 +23,17 @@ function Maincontent() {
     <div>
       <NavPage />
       <Header bg={hbg} wText="MOR"oText="TORQ">
-        <p class="header-subtitle fade-in">
+        <p className="header-subtitle fade-in">
           Striving to inspire future generations to pursue careers in STEM and
           Entrepreneurship by encouraging inclusion, leadership, ingenuity and
           teamwork.
         </p>
         <button
           href="#scrollspyHeading1"
-          class="btn btn-theme-color modal-toggle"
+          className="btn btn-theme-color modal-toggle"
           onClick={handleScroll}
         >
-          <i class="ti-control-play text-danger"></i>
+          <i className="ti-control-play text-danger"></i>
           Learn More
         </button>
       </Header>
