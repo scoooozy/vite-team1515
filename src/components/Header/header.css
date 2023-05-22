@@ -60,10 +60,10 @@
 }
 
 .new {
-  font-family: 'Bebas Neue', sans-serif;
-  font-weight: 550 !important;
-  letter-spacing: 2px;
-  font-size: calc(1.375rem + 5vw) !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 525 !important;
+  letter-spacing: 1px;
+  font-size: calc(1.375rem + 4vw) !important;
 }
 
 .header .header-content .header-title {
