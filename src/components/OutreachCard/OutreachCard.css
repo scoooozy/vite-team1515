@@ -1,7 +1,7 @@
 .outreach-card{
     border: 3px solid black;
     margin: 10px;
-    max-width: 600px;
+    max-width: 500px;
     min-height: 550px;
     height: 100%;
     display: flex;
@@ -14,7 +14,7 @@
     justify-content: space-evenly;
 }
 .carousel-item > img{
-    height: 400px !important;
+    height: 300px !important;
 }
 .col{
     gap: 10px !important;
