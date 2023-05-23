@@ -14,7 +14,9 @@ function NavPage(props) {
       <Navbar expand="lg" bg="dark" variant="dark" className="navbg">
         <Container className="navContent">
           <Navbar.Brand href="#home">
-            <img src={pic} alt="logo  " className="logo img" />
+            <Link to="/">
+              <img src={pic} alt="logo  " className="logo img" />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -47,7 +49,11 @@ function NavPage(props) {
                   </NavDropdown.Item>
                 </Link>
               </NavDropdown>
-              <Nav.Link href="https://www.bhef.org/apps/form/bhhsrobotics" target="_blank" className="links">
+              <Nav.Link
+                href="https://www.bhef.org/apps/form/bhhsrobotics"
+                target="_blank"
+                className="links"
+              >
                 Donate
               </Nav.Link>
               <NavLink></NavLink>
