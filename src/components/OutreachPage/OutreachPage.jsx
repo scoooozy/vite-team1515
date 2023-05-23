@@ -2,19 +2,19 @@ import React from "react";
 import NavPage from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import OutreachCard from "../OutreachCard/OutreachCard";
-import albion1 from "./images/albion1.jpg";
-import albion2 from "./images/albion2.jpg";
-import albion3 from "./images/albion3.jpg";
-import bg from "./images/outreachbg.png";
+import albion1 from "./images/albion1.webp";
+import albion2 from "./images/albion2.webp";
+import albion3 from "./images/albion3.webp";
+import bg from "./images/outreachbg.webp";
 import Header from "../Header/Header";
 import { useRef } from "react";
 import { Container } from "react-bootstrap";
 import "./OutreachPage.css" 
-import gate1 from "./images/gatea.jpg"
-import walk1 from "./images/woff.png"
-import friendship1 from "./images/friendship.jpg"
-import gate2 from "./images/gate2.jpg"
-import gate3 from "./images/gate3.jpg"
+import gate1 from "./images/gatea.webp"
+import walk1 from "./images/woff.webp"
+import friendship1 from "./images/friendship.webp"
+import gate2 from "./images/gate2.webp"
+import gate3 from "./images/gate3.webp"
 const OutreachPage = () => {
   const events = [
     {

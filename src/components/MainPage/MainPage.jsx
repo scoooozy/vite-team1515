@@ -3,10 +3,10 @@ import "./Maincontent.css";
 import ventura from "../images/ventura.jpg";
 import gameChangers from "../images/gameChangers.jpg";
 import Card from "../Card/Card";
-import hbg from "./chazzwithaheart.png"
-import robot2020 from "./2020robot_highres.jpg";
-import robot2022 from "./2022robot_highres.jpg";
-import robot2019 from "./2019robot_highres.jpg";
+import hbg from "./chazzwithaheart.webp"
+import robot2020 from "./2020robot_highres_1.webp";
+import robot2022 from "./2022robot_highres_1.webp";
+import robot2019 from "./2019robot_highres.webp";
 import Article from "../Article/Article";
 import NavPage from "../Navbar/Navbar";
 import Reveal from "../RevealComponent/Reveal";

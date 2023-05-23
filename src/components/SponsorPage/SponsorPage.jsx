@@ -2,10 +2,10 @@ import React from "react";
 import NavPage from "../Navbar/Navbar";
 import "./SponsorPage.css";
 
-import OhanaCo from "./images/Ohana & Co Logo.png";
-import GeneHaas from "./images/Haas White.png";
-import Enterprs from "./images/Enterprise Logo.png";
-import BHEF from "./images/BHEF Logo.png";
+import OhanaCo from "./images/Ohana & Co Logo.webp";
+import GeneHaas from "./images/Haas White.webp";
+import Enterprs from "./images/Enterprise Logo.webp";
+import BHEF from "./images/BHEF Logo.webp";
 
 import Footer from "../Footer/Footer";
 import { Container, Row } from "react-bootstrap";
