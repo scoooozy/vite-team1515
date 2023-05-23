@@ -5,8 +5,6 @@ import "./SponsorPage.css";
 import OhanaCo from "./images/Ohana & Co Logo.png";
 import GeneHaas from "./images/Haas White.png";
 import Enterprs from "./images/Enterprise Logo.png";
-import Industry from "./images/Industrious Logo.png";
-import Intuitive from "./images/Intuitive Logo.png";
 import BHEF from "./images/BHEF Logo.png";
 
 import Footer from "../Footer/Footer";
@@ -50,26 +48,11 @@ const SponsorPage = () => {
               onClick={() => handleRedirect("https://www.bhef.org/")}
             />
             <img
-              src={Industry}
-              alt="The Industrious"
-              className="sp-img-long hoverable"
-              onClick={() => handleRedirect("www.industriousoffice.com")} // no clue if this is the right link :(
-            />
-
-            <img
               src={Enterprs}
               alt="Enterprise Rent A Car"
               className="sp-img-long hoverable"
               onClick={() =>
                 handleRedirect("https://www.enterprise.com/en/home.html")
-              }
-            />
-            <img
-              src={Intuitive}
-              alt="Intuitive"
-              className="sp-img hoverable"
-              onClick={() =>
-                handleRedirect("https://www.intuitive-foundation.org/")
               }
             />
           </Row>
