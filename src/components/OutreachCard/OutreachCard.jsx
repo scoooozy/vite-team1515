@@ -3,9 +3,12 @@ import "./OutreachCard.css";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 import { forwardRef } from "react";
-function CardCarousel({ images }) {
+function CardCarousel({ images, showArrows=true }) {
   return (
-    <Carousel>
+    <Carousel 
+      indicators={showArrows} 
+      {...(!showArrows ? {nextIcon: null, prevIcon: null} : {})}
+    >
       {images.map((image, i) => (
         <Carousel.Item key={i}>
           <img className="d-block w-100" src={image} alt="First slide" />
@@ -17,8 +20,8 @@ function CardCarousel({ images }) {
 
 const OutreachCard = ({ images, title, text },ref) => {
   return (
-    <Card ref={ref}style={{ width: "45rem" }} className="outreach-card"> 
-      <CardCarousel images={images}  className="outreach-images"/>
+    <Card ref={ref} style={{ width: "45rem" }} className="outreach-card"> 
+      <CardCarousel showArrows={images.length !== 1} images={images}  className="outreach-images"/>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>
