@@ -1,6 +1,6 @@
 import "./navbar.css";
 
-import pic from "../images/MorTorq.svg";
+import pic from "../images/MorTorq.png";
 import picture from "../images/navpic.png";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import Container from "react-bootstrap/Container";
