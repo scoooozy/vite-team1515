@@ -13,6 +13,8 @@ import "./OutreachPage.css"
 import gate1 from "./images/gatea.jpg"
 import walk1 from "./images/woff.png"
 import friendship1 from "./images/friendship.jpg"
+import gate2 from "./images/gate2.jpg"
+import gate3 from "./images/gate3.jpg"
 const OutreachPage = () => {
   const events = [
     {
@@ -23,7 +25,7 @@ const OutreachPage = () => {
     {
       title: "Gate SkillsUSA",
       text: "Over the span of 3 months, our high school Robotics members mentored and guided 4 middle-school teams in the SkillsUSA Robotics competition. The teams competed against one another in the field in a competition we hosted in our high school that was open to everyone.",
-      images: [gate1],
+      images: [gate1, gate2, gate3],
     },
     {
       title: "Walk4Friendship of Los Angeles",
@@ -44,7 +46,7 @@ const OutreachPage = () => {
     <div>
       <NavPage />
       <Header wText="OUT" oText="REACH" bg={bg}>
-        <p class="header-subtitle fade-in">
+        <p className="header-subtitle fade-in">
           We are a high-school based robotics team that has been providing
           opportunities and education in STEM to our community for years, and
           enabling growth of both our community and students through organizing
@@ -55,10 +57,10 @@ const OutreachPage = () => {
         </p>
         <button
           href="#scrollspyHeading1"
-          class="btn btn-theme-color modal-toggle"
+          className="btn btn-theme-color modal-toggle"
           onClick={handleScroll}
         >
-          <i class="ti-control-play text-danger"></i>
+          <i className="ti-control-play text-danger"></i>
           Learn More
         </button>
       </Header>
