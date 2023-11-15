@@ -38,11 +38,6 @@ function NavPage(props) {
                     Our Leaders
                   </NavDropdown.Item>
                 </Link>
-                <Link className="droplinks" to="/Outreach">
-                  <NavDropdown.Item href="#action/3.2" className="droplinks">
-                    Outreach
-                  </NavDropdown.Item>
-                </Link>
                 <Link className="droplinks" to="/Sponsor">
                   <NavDropdown.Item href="#action/3.3" className="droplinks">
                     Sponsor
