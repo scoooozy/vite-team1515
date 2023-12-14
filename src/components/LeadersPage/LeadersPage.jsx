@@ -11,11 +11,10 @@ import hay from "./assets/hay.webp";
 import jus from "./assets/jus.webp";
 import kay from "./assets/kay.webp";
 import ode from "./assets/ode.webp";
-import rac from "./assets/rac.webp"
+import rac from "./assets/rac.webp";
 import ari from "./assets/ari.webp";
 import mat from "./assets/mat.webp";
 import yur from "./assets/yur.webp";
-
 
 import Castle from "./assets/castle.webp";
 import LeadersBG from "./leadership.webp";
@@ -30,10 +29,7 @@ const LeadersPage = (props) => {
     <div>
       <NavPage />
       <Header wText="OUR " oText="LEADERS" min="800" bg={LeadersBG}>
-        <button
-          className="scroll-btn"
-          onClick={handleScroll}
-        >
+        <button className="scroll-btn" onClick={handleScroll}>
           Scroll Down
         </button>
       </Header>
@@ -51,12 +47,6 @@ const LeadersPage = (props) => {
             name="Kaylen Wi"
             position="Co-President"
             description="This is my fourth year on the team. As electrical specialist, I wire the robot to ensure Build can run the different components they built with the code Programers wrote. Electrical piqued my interest freshman year and since then I worked very hard to increase my knowledge. Mortorq has given me many opportunities from learning how to use power tools to developing my engineering and leadership skills. I have met so many amazing people through this program and hope to encourage more girls to join FIRST."
-          />{" "}
-          <PersonCard
-            bg={jus}
-            name="Justin Perlman"
-            position="Build Specialist"
-            description="This is my 4th year at Mortorq and taking part in FRC! For the past few years, I’ve been the team’s driver. This year I’m the Build Specialist! It's my duty to teach engineering to our new members, make sure our robot is designed and built with high quality, and keep our build subgroups operating cohesively together! I absolutely love being a part of this team. Everybody has such a positive, inclusive attitude and I couldn't feel more at home. I can't wait to see what we create next! Go Mortorq!"
           />{" "}
         </Row>
         <Row>
@@ -86,7 +76,13 @@ const LeadersPage = (props) => {
             name="Rachel Cohen"
             position="CAD Specialist"
             description="This is my third year with Team 1515. As CAD Specialist, I teach students about Computer Aided Design (CAD) and help them develop their skillson the Solidworks program. Thanks to the Robotics Program, I have developed skills in engineering, machinery, design, and leadership. I hope to continue teaching and encouraging more females, as well as many of those in the Arts departments, to join Robotics."
-          />
+          />{" "}
+          <PersonCard
+            bg={jus}
+            name="Justin Perlman"
+            position="Build Specialist"
+            description="This is my 4th year at Mortorq and taking part in FRC! For the past few years, I’ve been the team’s driver. This year I’m the Build Specialist! It's my duty to teach engineering to our new members, make sure our robot is designed and built with high quality, and keep our build subgroups operating cohesively together! I absolutely love being a part of this team. Everybody has such a positive, inclusive attitude and I couldn't feel more at home. I can't wait to see what we create next! Go Mortorq!"
+          />{" "}
           <PersonCard
             bg={Castle}
             name="John R. Castle II"
@@ -95,7 +91,7 @@ const LeadersPage = (props) => {
           />{" "}
         </Row>
       </Container>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
