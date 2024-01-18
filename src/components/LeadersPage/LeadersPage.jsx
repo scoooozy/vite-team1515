@@ -45,8 +45,14 @@ const LeadersPage = (props) => {
           <PersonCard
             bg={kay}
             name="Kaylen Wi"
-            position="Co-President"
+            position="President"
             description="This is my fourth year on the team. As electrical specialist, I wire the robot to ensure Build can run the different components they built with the code Programers wrote. Electrical piqued my interest freshman year and since then I worked very hard to increase my knowledge. Mortorq has given me many opportunities from learning how to use power tools to developing my engineering and leadership skills. I have met so many amazing people through this program and hope to encourage more girls to join FIRST."
+          />{" "}
+          <PersonCard
+            bg={rac}
+            name="Rachel Cohen"
+            position="CAD Specialist"
+            description="This is my fourth year with Team 1515. As CAD Specialist, I teach students about Computer Aided Design (CAD) and help them develop their skillson the Solidworks program. Thanks to the Robotics Program, I have developed skills in engineering, machinery, design, and leadership. I hope to continue teaching and encouraging more females, as well as many of those in the Arts departments, to join Robotics."
           />{" "}
         </Row>
         <Row>
@@ -72,16 +78,16 @@ const LeadersPage = (props) => {
         </Row>
         <Row>
           <PersonCard
-            bg={rac}
-            name="Rachel Cohen"
-            position="CAD Specialist"
-            description="This is my third year with Team 1515. As CAD Specialist, I teach students about Computer Aided Design (CAD) and help them develop their skillson the Solidworks program. Thanks to the Robotics Program, I have developed skills in engineering, machinery, design, and leadership. I hope to continue teaching and encouraging more females, as well as many of those in the Arts departments, to join Robotics."
-          />{" "}
-          <PersonCard
             bg={jus}
             name="Justin Perlman"
             position="Build Specialist"
             description="This is my 4th year at Mortorq and taking part in FRC! For the past few years, I’ve been the team’s driver. This year I’m the Build Specialist! It's my duty to teach engineering to our new members, make sure our robot is designed and built with high quality, and keep our build subgroups operating cohesively together! I absolutely love being a part of this team. Everybody has such a positive, inclusive attitude and I couldn't feel more at home. I can't wait to see what we create next! Go Mortorq!"
+          />{" "}
+          <PersonCard
+            bg={gad}
+            name="Gaddiel Noveck"
+            position="Machine Specialist"
+            description="Hey, my name is Gaddiel Noveck and I'm the Machine Specialist! As a senior, I've spent three years with MorTorq, building robots and forming friendships along the way. It's my responsibility to share my knowledge of the workshop with my teammates and to ensure that our machines are always in capable hands. I can't wait to spend the rest of this year building awesome machines!"
           />{" "}
           <PersonCard
             bg={Castle}
