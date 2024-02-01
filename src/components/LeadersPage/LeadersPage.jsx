@@ -72,7 +72,7 @@ const LeadersPage = (props) => {
           <PersonCard
             bg={ari}
             name="Arielle Efron"
-            position="Safety Capitan"
+            position="Safety Captain"
             description="I am a junior and this is my third year as the Safety Captain of our robotics team. Safety is an absolute necessity and priority for us, and I hope to share my passion for safety beyond just MorTorq and with anyone interested in educating themselves on how to further protect their team!"
           />{" "}
         </Row>
