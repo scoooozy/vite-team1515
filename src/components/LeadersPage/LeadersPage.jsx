@@ -90,6 +90,12 @@ const LeadersPage = (props) => {
             description="Hey, my name is Gaddiel Noveck and I'm the Machine Specialist! As a senior, I've spent three years with MorTorq, building robots and forming friendships along the way. It's my responsibility to share my knowledge of the workshop with my teammates and to ensure that our machines are always in capable hands. I can't wait to spend the rest of this year building awesome machines!"
           />{" "}
           <PersonCard
+            bg={mat}
+            name="Matan Zadeh"
+            position="Intro-CAD Specialis"
+            description="Hello. I am a Junior. This is my third year on Team 1515. As Intro-CAD Specialist, I teach the incoming students about Computer Aided Design (CAD) and help them learn the SolidWorks program. The Robotics program helped teach me how to machine, construct, and learn how to invent. It helped me refine and learn different strategies of teaching. I love working with this team and I am excited for this new year to see what we will do!"
+          />{" "}
+          <PersonCard
             bg={Castle}
             name="John R. Castle II"
             position="Robotics Teacher"
